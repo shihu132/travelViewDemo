@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SHableView : UITableView
+@interface SHTableView : UITableView
 
 @end

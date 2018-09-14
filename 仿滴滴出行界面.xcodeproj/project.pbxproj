@@ -15,6 +15,7 @@
 		484DE2A9214B4DB200A024DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2A8214B4DB200A024DF /* main.m */; };
 		484DE2B3214B4DB300A024DF /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2B2214B4DB300A024DF /* _______Tests.m */; };
 		484DE2BE214B4DB300A024DF /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2BD214B4DB300A024DF /* _______UITests.m */; };
+		484DE2CD214B4E9300A024DF /* SHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2CC214B4E9300A024DF /* SHTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		484DE2B9214B4DB300A024DF /* 仿滴滴出行界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿滴滴出行界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		484DE2BD214B4DB300A024DF /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		484DE2BF214B4DB300A024DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484DE2CB214B4E9300A024DF /* SHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHTableView.h; sourceTree = "<group>"; };
+		484DE2CC214B4E9300A024DF /* SHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				484DE29A214B4DB000A024DF /* AppDelegate.m */,
 				484DE29C214B4DB000A024DF /* ViewController.h */,
 				484DE29D214B4DB000A024DF /* ViewController.m */,
+				484DE2CB214B4E9300A024DF /* SHTableView.h */,
+				484DE2CC214B4E9300A024DF /* SHTableView.m */,
 				484DE29F214B4DB000A024DF /* Main.storyboard */,
 				484DE2A2214B4DB200A024DF /* Assets.xcassets */,
 				484DE2A4214B4DB200A024DF /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484DE29E214B4DB000A024DF /* ViewController.m in Sources */,
+				484DE2CD214B4E9300A024DF /* SHTableView.m in Sources */,
 				484DE2A9214B4DB200A024DF /* main.m in Sources */,
 				484DE29B214B4DB000A024DF /* AppDelegate.m in Sources */,
 			);
