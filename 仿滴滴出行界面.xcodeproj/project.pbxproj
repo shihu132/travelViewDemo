@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484DE29B214B4DB000A024DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE29A214B4DB000A024DF /* AppDelegate.m */; };
+		484DE29E214B4DB000A024DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE29D214B4DB000A024DF /* ViewController.m */; };
+		484DE2A1214B4DB000A024DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484DE29F214B4DB000A024DF /* Main.storyboard */; };
+		484DE2A3214B4DB200A024DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484DE2A2214B4DB200A024DF /* Assets.xcassets */; };
+		484DE2A6214B4DB200A024DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484DE2A4214B4DB200A024DF /* LaunchScreen.storyboard */; };
+		484DE2A9214B4DB200A024DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2A8214B4DB200A024DF /* main.m */; };
+		484DE2B3214B4DB300A024DF /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2B2214B4DB300A024DF /* _______Tests.m */; };
+		484DE2BE214B4DB300A024DF /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484DE2BD214B4DB300A024DF /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484DE2AF214B4DB300A024DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DE28E214B4DB000A024DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484DE295214B4DB000A024DF;
+			remoteInfo = "仿滴滴出行界面";
+		};
+		484DE2BA214B4DB300A024DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DE28E214B4DB000A024DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484DE295214B4DB000A024DF;
+			remoteInfo = "仿滴滴出行界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		484DE296214B4DB000A024DF /* 仿滴滴出行界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿滴滴出行界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DE299214B4DB000A024DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		484DE29A214B4DB000A024DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		484DE29C214B4DB000A024DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		484DE29D214B4DB000A024DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		484DE2A0214B4DB000A024DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484DE2A2214B4DB200A024DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484DE2A5214B4DB200A024DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484DE2A7214B4DB200A024DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484DE2A8214B4DB200A024DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484DE2AE214B4DB300A024DF /* 仿滴滴出行界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿滴滴出行界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DE2B2214B4DB300A024DF /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		484DE2B4214B4DB300A024DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484DE2B9214B4DB300A024DF /* 仿滴滴出行界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿滴滴出行界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DE2BD214B4DB300A024DF /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		484DE2BF214B4DB300A024DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484DE293214B4DB000A024DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2AB214B4DB300A024DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2B6214B4DB300A024DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484DE28D214B4DB000A024DF = {
+			isa = PBXGroup;
+			children = (
+				484DE298214B4DB000A024DF /* 仿滴滴出行界面 */,
+				484DE2B1214B4DB300A024DF /* 仿滴滴出行界面Tests */,
+				484DE2BC214B4DB300A024DF /* 仿滴滴出行界面UITests */,
+				484DE297214B4DB000A024DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484DE297214B4DB000A024DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484DE296214B4DB000A024DF /* 仿滴滴出行界面.app */,
+				484DE2AE214B4DB300A024DF /* 仿滴滴出行界面Tests.xctest */,
+				484DE2B9214B4DB300A024DF /* 仿滴滴出行界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484DE298214B4DB000A024DF /* 仿滴滴出行界面 */ = {
+			isa = PBXGroup;
+			children = (
+				484DE299214B4DB000A024DF /* AppDelegate.h */,
+				484DE29A214B4DB000A024DF /* AppDelegate.m */,
+				484DE29C214B4DB000A024DF /* ViewController.h */,
+				484DE29D214B4DB000A024DF /* ViewController.m */,
+				484DE29F214B4DB000A024DF /* Main.storyboard */,
+				484DE2A2214B4DB200A024DF /* Assets.xcassets */,
+				484DE2A4214B4DB200A024DF /* LaunchScreen.storyboard */,
+				484DE2A7214B4DB200A024DF /* Info.plist */,
+				484DE2A8214B4DB200A024DF /* main.m */,
+			);
+			path = "仿滴滴出行界面";
+			sourceTree = "<group>";
+		};
+		484DE2B1214B4DB300A024DF /* 仿滴滴出行界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				484DE2B2214B4DB300A024DF /* _______Tests.m */,
+				484DE2B4214B4DB300A024DF /* Info.plist */,
+			);
+			path = "仿滴滴出行界面Tests";
+			sourceTree = "<group>";
+		};
+		484DE2BC214B4DB300A024DF /* 仿滴滴出行界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				484DE2BD214B4DB300A024DF /* _______UITests.m */,
+				484DE2BF214B4DB300A024DF /* Info.plist */,
+			);
+			path = "仿滴滴出行界面UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484DE295214B4DB000A024DF /* 仿滴滴出行界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484DE2C2214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面" */;
+			buildPhases = (
+				484DE292214B4DB000A024DF /* Sources */,
+				484DE293214B4DB000A024DF /* Frameworks */,
+				484DE294214B4DB000A024DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿滴滴出行界面";
+			productName = "仿滴滴出行界面";
+			productReference = 484DE296214B4DB000A024DF /* 仿滴滴出行界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484DE2AD214B4DB300A024DF /* 仿滴滴出行界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484DE2C5214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面Tests" */;
+			buildPhases = (
+				484DE2AA214B4DB300A024DF /* Sources */,
+				484DE2AB214B4DB300A024DF /* Frameworks */,
+				484DE2AC214B4DB300A024DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484DE2B0214B4DB300A024DF /* PBXTargetDependency */,
+			);
+			name = "仿滴滴出行界面Tests";
+			productName = "仿滴滴出行界面Tests";
+			productReference = 484DE2AE214B4DB300A024DF /* 仿滴滴出行界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		484DE2B8214B4DB300A024DF /* 仿滴滴出行界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484DE2C8214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面UITests" */;
+			buildPhases = (
+				484DE2B5214B4DB300A024DF /* Sources */,
+				484DE2B6214B4DB300A024DF /* Frameworks */,
+				484DE2B7214B4DB300A024DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484DE2BB214B4DB300A024DF /* PBXTargetDependency */,
+			);
+			name = "仿滴滴出行界面UITests";
+			productName = "仿滴滴出行界面UITests";
+			productReference = 484DE2B9214B4DB300A024DF /* 仿滴滴出行界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484DE28E214B4DB000A024DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "石虎";
+				TargetAttributes = {
+					484DE295214B4DB000A024DF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					484DE2AD214B4DB300A024DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 484DE295214B4DB000A024DF;
+					};
+					484DE2B8214B4DB300A024DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 484DE295214B4DB000A024DF;
+					};
+				};
+			};
+			buildConfigurationList = 484DE291214B4DB000A024DF /* Build configuration list for PBXProject "仿滴滴出行界面" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484DE28D214B4DB000A024DF;
+			productRefGroup = 484DE297214B4DB000A024DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484DE295214B4DB000A024DF /* 仿滴滴出行界面 */,
+				484DE2AD214B4DB300A024DF /* 仿滴滴出行界面Tests */,
+				484DE2B8214B4DB300A024DF /* 仿滴滴出行界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484DE294214B4DB000A024DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DE2A6214B4DB200A024DF /* LaunchScreen.storyboard in Resources */,
+				484DE2A3214B4DB200A024DF /* Assets.xcassets in Resources */,
+				484DE2A1214B4DB000A024DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2AC214B4DB300A024DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2B7214B4DB300A024DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484DE292214B4DB000A024DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DE29E214B4DB000A024DF /* ViewController.m in Sources */,
+				484DE2A9214B4DB200A024DF /* main.m in Sources */,
+				484DE29B214B4DB000A024DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2AA214B4DB300A024DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DE2B3214B4DB300A024DF /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484DE2B5214B4DB300A024DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DE2BE214B4DB300A024DF /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484DE2B0214B4DB300A024DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484DE295214B4DB000A024DF /* 仿滴滴出行界面 */;
+			targetProxy = 484DE2AF214B4DB300A024DF /* PBXContainerItemProxy */;
+		};
+		484DE2BB214B4DB300A024DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484DE295214B4DB000A024DF /* 仿滴滴出行界面 */;
+			targetProxy = 484DE2BA214B4DB300A024DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		484DE29F214B4DB000A024DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484DE2A0214B4DB000A024DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484DE2A4214B4DB200A024DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484DE2A5214B4DB200A024DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484DE2C0214B4DB300A024DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		484DE2C1214B4DB300A024DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484DE2C3214B4DB300A024DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484DE2C4214B4DB300A024DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484DE2C6214B4DB300A024DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿滴滴出行界面.app/仿滴滴出行界面";
+			};
+			name = Debug;
+		};
+		484DE2C7214B4DB300A024DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿滴滴出行界面.app/仿滴滴出行界面";
+			};
+			name = Release;
+		};
+		484DE2C9214B4DB300A024DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "仿滴滴出行界面";
+			};
+			name = Debug;
+		};
+		484DE2CA214B4DB300A024DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2RZ63X6NC;
+				INFOPLIST_FILE = "仿滴滴出行界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.shihu.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "仿滴滴出行界面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484DE291214B4DB000A024DF /* Build configuration list for PBXProject "仿滴滴出行界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DE2C0214B4DB300A024DF /* Debug */,
+				484DE2C1214B4DB300A024DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484DE2C2214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DE2C3214B4DB300A024DF /* Debug */,
+				484DE2C4214B4DB300A024DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484DE2C5214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DE2C6214B4DB300A024DF /* Debug */,
+				484DE2C7214B4DB300A024DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484DE2C8214B4DB300A024DF /* Build configuration list for PBXNativeTarget "仿滴滴出行界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DE2C9214B4DB300A024DF /* Debug */,
+				484DE2CA214B4DB300A024DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484DE28E214B4DB000A024DF /* Project object */;
+}
